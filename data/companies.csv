@@ -1,0 +1,51 @@
+ticker,company_name,sector,cik,about_url
+MSFT,Microsoft,Technology,789019,https://news.microsoft.com/facts-about-microsoft/
+AAPL,Apple,Technology,320193,https://www.apple.com/diversity/
+NVDA,NVIDIA,Technology,1045810,https://www.nvidia.com/en-us/about-nvidia/
+GOOGL,Alphabet,Technology,1652044,https://abc.xyz/
+META,Meta Platforms,Technology,1326801,https://about.fb.com/company-info/
+AVGO,Broadcom,Technology,1730168,https://www.broadcom.com/company/about-us
+CRM,Salesforce,Technology,1108524,https://www.salesforce.com/company/
+ORCL,Oracle,Technology,1341439,https://www.oracle.com/corporate/
+IBM,IBM,Technology,51143,https://www.ibm.com/about
+INTC,Intel,Technology,50863,https://www.intel.com/content/www/us/en/company-overview/company-overview.html
+BRK.B,Berkshire Hathaway,Financials,1067983,https://www.berkshirehathaway.com/
+JPM,JPMorgan Chase,Financials,19617,https://www.jpmorganchase.com/about
+BAC,Bank of America,Financials,70858,https://about.bankofamerica.com/en
+WFC,Wells Fargo,Financials,72971,https://www.wellsfargo.com/about/
+GS,Goldman Sachs,Financials,886982,https://www.goldmansachs.com/about-us/
+MS,Morgan Stanley,Financials,895421,https://www.morganstanley.com/about-us
+BLK,BlackRock,Financials,1364742,https://www.blackrock.com/corporate/about-us
+SCHW,Charles Schwab,Financials,316709,https://www.schwab.com/about
+AXP,American Express,Financials,4962,https://www.americanexpress.com/en-us/company/
+C,Citigroup,Financials,831001,https://www.citigroup.com/global/about-us
+LLY,Eli Lilly,Healthcare,59478,https://www.lilly.com/who-we-are
+UNH,UnitedHealth Group,Healthcare,731766,https://www.unitedhealthgroup.com/about.html
+JNJ,Johnson & Johnson,Healthcare,200406,https://www.jnj.com/about-jnj
+ABBV,AbbVie,Healthcare,1551152,https://www.abbvie.com/who-we-are.html
+MRK,Merck,Healthcare,310158,https://www.merck.com/company-overview/
+TMO,Thermo Fisher Scientific,Healthcare,97745,https://www.thermofisher.com/us/en/home/about-us.html
+ABT,Abbott Laboratories,Healthcare,1800,https://www.abbott.com/about-abbott.html
+PFE,Pfizer,Healthcare,78003,https://www.pfizer.com/about
+MDT,Medtronic,Healthcare,1613103,https://www.medtronic.com/us-en/about.html
+BMY,Bristol-Myers Squibb,Healthcare,14272,https://www.bms.com/about-us.html
+AMZN,Amazon,Consumer Discretionary,1018724,https://www.aboutamazon.com/about-us
+TSLA,Tesla,Consumer Discretionary,1318605,https://www.tesla.com/about
+HD,Home Depot,Consumer Discretionary,354950,https://corporate.homedepot.com/page/about-us
+MCD,McDonald's,Consumer Discretionary,63908,https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are.html
+NKE,Nike,Consumer Discretionary,320187,https://about.nike.com/en
+SBUX,Starbucks,Consumer Discretionary,829224,https://www.starbucks.com/about-us/
+TGT,Target,Consumer Discretionary,27419,https://corporate.target.com/about
+LOW,Lowe's,Consumer Discretionary,60667,https://corporate.lowes.com/who-we-are
+TJX,TJX Companies,Consumer Discretionary,109198,https://www.tjx.com/company
+F,Ford Motor,Consumer Discretionary,37996,https://corporate.ford.com/about.html
+XOM,ExxonMobil,Energy,34088,https://corporate.exxonmobil.com/who-we-are
+CVX,Chevron,Energy,93410,https://www.chevron.com/who-we-are
+COP,ConocoPhillips,Energy,1163165,https://www.conocophillips.com/about-us/
+EOG,EOG Resources,Energy,821189,https://www.eogresources.com/about
+SLB,SLB,Energy,87347,https://www.slb.com/about
+MPC,Marathon Petroleum,Energy,1510295,https://www.marathonpetroleum.com/About/
+PSX,Phillips 66,Energy,1534701,https://www.phillips66.com/about/
+VLO,Valero Energy,Energy,1035002,https://www.valero.com/about
+OXY,Occidental Petroleum,Energy,797468,https://www.oxy.com/about/
+HAL,Halliburton,Energy,45012,https://www.halliburton.com/en/about-us
