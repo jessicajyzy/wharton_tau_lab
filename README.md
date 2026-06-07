@@ -1,26 +1,34 @@
-# wharton_tau_lab
+# Wharton TAU Lab Research Assistant Recruitment Assignment
 
-This repository contains code, output files, and written summaries for the Organizational Authenticity & Corporate Value Alignment assignment.
+**Submitted by:** Jessica Yang
+**Project:** Organizational Authenticity & Corporate Value Alignment
+**Repository:** `wharton_tau_lab`
 
-The project studies whether companies’ publicly stated values align with the values emphasized in formal disclosure documents. The analysis is organized into four parts:
+This repository contains code, output files, and written summaries for the Wharton TAU Lab Research Assistant Recruitment Assignment.
+
+The project studies whether companies’ publicly stated values align with the values emphasized in formal disclosure documents. I use a 50-company sample across five sectors and track company-year language from 2016 through 2024. The analysis is organized into four parts:
 
 1. **Part 1 — Stated Values:** archived corporate About Us / mission / values pages from the Wayback Machine
 2. **Part 2 — Lived Values:** proxy statement disclosure analysis
 3. **Part 3 — Authenticity Index:** comparison between stated and lived values
-4. **Part 4 — Summary and interpretation:** written findings and limitations
+4. **Part 4 — Exploratory Extension:** additional diagnostic analysis of authenticity gaps
+
+The main goal is not to claim that language fully proves whether a company is authentic. Instead, the project builds a transparent and scalable proof of concept for measuring alignment between public values language and formal disclosure emphasis.
 
 ## Repository structure
 
 * `data/companies.csv`: sample of 50 companies across five sectors
-* `data/raw/wayback_html/`: raw archived HTML files downloaded from the Wayback Machine
-* `data/raw/proxy_html/`: raw proxy statement HTML files
+* `data/raw/wayback_html.zip`: raw archived Wayback HTML files used in Part 1
 * `outputs/stated_values/`: Part 1 stated-values outputs
 * `outputs/lived_values/`: Part 2 lived-values outputs
 * `outputs/authenticity/`: Part 3 authenticity-index outputs
 * `outputs/extension/`: Part 4 exploratory analysis outputs
-* `src/`: Python scripts used for scraping, processing, and analysis
+* `src/`: commented Python scripts used for scraping, processing, and analysis
 * `summaries/`: written summaries for each part
+* `README.md`: project documentation
 * `requirements.txt`: Python package requirements
+
+Note: Raw Wayback HTML files are included as `data/raw/wayback_html.zip`. Raw proxy HTML files were saved locally during collection, but `proxy_html.zip` is not included because it exceeds GitHub’s browser upload size limit. The structured proxy outputs used for analysis are included in `outputs/lived_values/`.
 
 ## Setup
 
@@ -88,10 +96,10 @@ If no candidate produces usable visible text, the row remains in the dataset but
 
 The scraper removes scripts, styles, navigation, headers, footers, and common boilerplate. It uses a minimum text threshold of 400 characters. Rows with short text, weaker fallback selection, lower page scores, or fallback selection methods are marked `needs_review`.
 
-The raw archived HTML files are stored in:
+The raw archived Wayback HTML files are included as:
 
 ```text
-data/raw/wayback_html/
+data/raw/wayback_html.zip
 ```
 
 ## Theme categories
@@ -108,7 +116,7 @@ I used nine value categories:
 * `health_safety_wellbeing`
 * `financial_performance_growth`
 
-These categories were chosen because they capture common corporate values language and can be compared to disclosure language in later parts of the project.
+These categories were chosen because they capture common corporate values language and can be compared to disclosure language in later parts of the project. I intentionally kept them broad enough to work across industries, but specific enough to separate different kinds of values language.
 
 ## Prior-year change detection
 
@@ -261,6 +269,8 @@ Part 2 uses SEC EDGAR proxy statement filings. The scraper searches for DEF 14A 
 
 I used proxy statements instead of ESG, sustainability, or DEI reports because proxy filings are more consistently available across companies and years. This made the lived-values dataset more comparable across the 50-company sample.
 
+Raw proxy HTML files were saved locally during collection. They are not included in this GitHub upload because the compressed archive exceeds GitHub’s browser upload size limit. The structured proxy outputs used for the analysis are included in `outputs/lived_values/`.
+
 ## Text mining approach
 
 For each proxy statement, I extracted cleaned body text and measured topic emphasis using the same nine value categories from Part 1:
@@ -306,7 +316,7 @@ python3 src/generate_part2_reports.py
 The main Part 2 output files are:
 
 ```text
-outputs/lived_values/lived_values_company_year.csv
+outputs/lived_values/lived_values_company_year_compact.csv
 outputs/lived_values/part2_collection_log.csv
 outputs/lived_values/part2_company_coverage_report.csv
 outputs/lived_values/part2_missing_rows_report.csv
@@ -315,13 +325,9 @@ outputs/lived_values/part2_year_sector_summary.csv
 outputs/lived_values/part2_external_event_summary.csv
 ```
 
-The raw proxy HTML files are stored in:
+Note: `lived_values_company_year_compact.csv` is the GitHub-uploadable version of the Part 2 company-year dataset. It keeps the structured metadata, theme counts, tone fields, coverage fields, and trend variables, but removes the full `proxy_text_clean` column because the full-text version exceeds GitHub’s browser upload size limit.
 
-```text
-data/raw/proxy_html/
-```
-
-The final Part 2 dataset includes one row per company-year and contains fields for company identity, document type, SEC source information, filing metadata, cleaned proxy text, theme categories, normalized theme counts per 10,000 words, tone scores, text availability, and analyst notes.
+The final Part 2 dataset includes one row per company-year and contains fields for company identity, document type, SEC source information, filing metadata, theme categories, normalized theme counts per 10,000 words, tone scores, text availability, and analyst notes.
 
 ## Part 2 coverage
 
@@ -519,6 +525,19 @@ This analysis is exploratory. The gap-type categories depend on thresholds chose
 
 ---
 
+# Written summaries
+
+The written summaries for each part are stored in:
+
+```text
+summaries/part1_summary.md
+summaries/part2_summary.md
+summaries/part3_summary.md
+summaries/part4_summary.md
+```
+
+These summaries translate the technical outputs into substantive findings for a non-technical reader. They are meant to be read alongside the structured output files.
+
 # Known limitations
 
 This project relies on archival and public disclosure data, both of which have limitations. Wayback snapshots are not always complete, company websites change over time, and archived pages may not preserve visible text accurately. Proxy statements are also formal legal documents and may not capture all aspects of a company’s internal culture or operational behavior.
@@ -555,7 +574,7 @@ python3 src/generate_part3_reports.py
 python3 src/extension_analysis.py
 ```
 
-Because Wayback scraping can be slow and occasionally unstable, I saved raw HTML files and collection logs so that gaps and selected pages can be audited later.
+Because Wayback scraping and SEC scraping can be slow and occasionally unstable, I saved collection logs and structured output files so that gaps and selected records can be audited later.
 
 # What I would do differently with more time
 
