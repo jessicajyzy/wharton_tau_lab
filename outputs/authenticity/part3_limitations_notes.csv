@@ -1,0 +1,6 @@
+limitation,explanation
+Document mismatch,"Part 1 uses public stated-values web pages, while Part 2 uses proxy statements. These documents have different audiences and purposes, so perfect alignment is not expected."
+Text availability,The index is only calculated when both stated-values text and proxy text are available. Rows with missing or unusable text are retained but labeled as insufficient data.
+Dictionary-based themes,"Theme categories rely on predefined keyword dictionaries. This improves transparency, but it may miss subtle or indirect language about corporate values."
+Tone is a rough proxy,Tone alignment is based on positive and negative word counts. It should be read as a simple supporting signal rather than a complete sentiment analysis.
+Not causal,The authenticity index measures language alignment. It does not prove that a company actually behaves authentically or that specific events caused changes in the score.

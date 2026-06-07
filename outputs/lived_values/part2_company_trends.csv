@@ -1,0 +1,451 @@
+ticker,company_name,sector,year,has_text,text_len,tone_net,tone_change_from_prior,total_theme_mentions_per_10k,theme_mentions_change_from_prior,dominant_theme,text_similarity_to_prior,changed_from_prior,theme_shift_from_prior
+AAPL,Apple,Technology,2016,True,293179,0.0769,,45.1943,,financial_performance_growth,,,
+AAPL,Apple,Technology,2017,True,206517,0.2908,0.2139,57.9612,12.7669,financial_performance_growth,0.11985,True,17.137900000000002
+AAPL,Apple,Technology,2018,False,0,0.0,,0.0,,,,,
+AAPL,Apple,Technology,2019,True,175659,0.0991,-0.1917,55.960800000000006,-2.000399999999992,financial_performance_growth,0.1273,True,5.971200000000001
+AAPL,Apple,Technology,2020,True,185553,0.2057,0.1066,57.0727,1.1118999999999915,financial_performance_growth,0.1875,True,7.954299999999998
+AAPL,Apple,Technology,2021,True,189397,0.2455,0.0398,61.8806,4.807900000000004,financial_performance_growth,0.12165,True,6.617699999999999
+AAPL,Apple,Technology,2022,True,363372,0.3127,0.06719999999999998,58.1772,-3.703400000000002,financial_performance_growth,0.1725,True,17.7166
+AAPL,Apple,Technology,2023,True,297102,0.3753,0.06260000000000004,73.9139,15.736699999999999,financial_performance_growth,0.14045,True,18.5835
+AAPL,Apple,Technology,2024,True,299918,0.4897,0.1144,80.1885,6.274600000000007,financial_performance_growth,0.24305,True,12.781999999999996
+ABBV,AbbVie,Healthcare,2016,False,0,0.0,,0.0,,,,,
+ABBV,AbbVie,Healthcare,2017,True,233670,0.3028,,47.5029,,financial_performance_growth,,,
+ABBV,AbbVie,Healthcare,2018,True,255333,0.2763,-0.026500000000000024,48.055,0.5521000000000029,financial_performance_growth,0.4253,True,2.0520999999999994
+ABBV,AbbVie,Healthcare,2019,True,252870,0.275,-0.0012999999999999678,50.698,2.6430000000000007,financial_performance_growth,0.4735,True,2.7318000000000007
+ABBV,AbbVie,Healthcare,2020,True,256195,0.2941,0.01909999999999995,51.36710000000001,0.6691000000000074,financial_performance_growth,0.4337,True,4.989700000000001
+ABBV,AbbVie,Healthcare,2021,True,425720,0.3917,0.09760000000000002,42.821600000000004,-8.545500000000004,financial_performance_growth,0.17875,True,14.229099999999999
+ABBV,AbbVie,Healthcare,2022,True,285715,0.2935,-0.09820000000000001,55.1249,12.303299999999993,financial_performance_growth,0.5496,True,15.535299999999996
+ABBV,AbbVie,Healthcare,2023,True,317623,0.1579,-0.13559999999999997,57.0173,1.892400000000002,financial_performance_growth,0.51085,True,5.5538
+ABBV,AbbVie,Healthcare,2024,True,325098,0.2231,0.06519999999999998,58.4131,1.3958000000000013,financial_performance_growth,0.62905,True,3.0028000000000015
+ABT,Abbott Laboratories,Healthcare,2016,True,213593,0.4321,,46.7712,,financial_performance_growth,,,
+ABT,Abbott Laboratories,Healthcare,2017,True,375802,0.4074,-0.0247,40.4201,-6.351100000000002,financial_performance_growth,0.3923,True,12.371100000000002
+ABT,Abbott Laboratories,Healthcare,2018,True,237753,0.4141,0.006700000000000039,47.654399999999995,7.2342999999999975,financial_performance_growth,0.4333,True,13.2187
+ABT,Abbott Laboratories,Healthcare,2019,True,215345,0.1579,-0.2562,46.9014,-0.752999999999993,financial_performance_growth,0.46625,True,4.05
+ABT,Abbott Laboratories,Healthcare,2020,True,238736,0.3333,0.17539999999999997,48.5474,1.6460000000000008,financial_performance_growth,0.4649,True,5.1701999999999995
+ABT,Abbott Laboratories,Healthcare,2021,True,296575,0.4247,0.09140000000000004,44.5755,-3.971900000000005,financial_performance_growth,0.30535,True,12.1769
+ABT,Abbott Laboratories,Healthcare,2022,True,262726,0.2842,-0.1405,51.6128,7.037300000000002,financial_performance_growth,0.19165,True,9.054300000000001
+ABT,Abbott Laboratories,Healthcare,2023,True,271468,0.2626,-0.021600000000000008,56.5812,4.968400000000003,financial_performance_growth,0.56835,True,7.614799999999998
+ABT,Abbott Laboratories,Healthcare,2024,True,238219,0.2472,-0.015399999999999997,58.181799999999996,1.600599999999993,financial_performance_growth,0.6122,True,2.6328000000000014
+AMZN,Amazon,Consumer Discretionary,2016,True,122617,0.2683,,45.181400000000004,,financial_performance_growth,,,
+AMZN,Amazon,Consumer Discretionary,2017,True,177428,0.3958,0.1275,48.0193,2.8378999999999976,financial_performance_growth,0.6578,True,8.604299999999999
+AMZN,Amazon,Consumer Discretionary,2018,True,132938,0.4706,0.07480000000000003,48.5189,0.49960000000000093,financial_performance_growth,0.6205,True,7.848000000000002
+AMZN,Amazon,Consumer Discretionary,2019,True,218855,0.5,0.02939999999999998,57.161100000000005,8.642200000000003,financial_performance_growth,0.85425,True,22.3124
+AMZN,Amazon,Consumer Discretionary,2020,True,281424,0.3166,-0.1834,61.6862,4.525099999999995,financial_performance_growth,0.13045,True,10.525100000000002
+AMZN,Amazon,Consumer Discretionary,2021,True,346616,0.5738,0.2572,67.6831,5.996899999999997,financial_performance_growth,0.2441,True,19.4515
+AMZN,Amazon,Consumer Discretionary,2022,True,496787,0.5793,0.00550000000000006,70.8956,3.2125000000000057,financial_performance_growth,0.0597,True,12.8173
+AMZN,Amazon,Consumer Discretionary,2023,True,546094,0.4173,-0.16200000000000003,66.7834,-4.112200000000001,financial_performance_growth,0.12485,True,18.6244
+AMZN,Amazon,Consumer Discretionary,2024,True,497957,0.3823,-0.03500000000000003,72.5966,5.813199999999995,financial_performance_growth,0.1726,True,10.066799999999997
+AVGO,Broadcom,Technology,2016,False,0,0.0,,0.0,,,,,
+AVGO,Broadcom,Technology,2017,False,0,0.0,,0.0,,,,,
+AVGO,Broadcom,Technology,2018,False,0,0.0,,0.0,,,,,
+AVGO,Broadcom,Technology,2019,True,308862,0.344,,44.0326,,financial_performance_growth,,,
+AVGO,Broadcom,Technology,2020,True,220071,0.3269,-0.01709999999999995,57.7996,13.766999999999996,financial_performance_growth,0.45745,True,18.048799999999996
+AVGO,Broadcom,Technology,2021,True,346688,0.2741,-0.052800000000000014,50.737300000000005,-7.062299999999993,financial_performance_growth,0.4384,True,11.335299999999997
+AVGO,Broadcom,Technology,2022,True,221884,0.1825,-0.09160000000000001,62.96079999999999,12.223499999999987,financial_performance_growth,0.31565,True,15.659899999999997
+AVGO,Broadcom,Technology,2023,True,321492,0.1556,-0.026900000000000007,49.799,-13.161799999999992,financial_performance_growth,0.4812,True,14.580399999999997
+AVGO,Broadcom,Technology,2024,True,225882,0.2212,0.06560000000000002,58.3491,8.5501,financial_performance_growth,0.1655,True,15.261900000000004
+AXP,American Express,Financials,2016,True,401760,-0.0674,,56.003299999999996,,financial_performance_growth,,,
+AXP,American Express,Financials,2017,True,277580,-0.0145,0.0529,62.036100000000005,6.032800000000009,financial_performance_growth,0.1506,True,9.336799999999997
+AXP,American Express,Financials,2018,True,314098,-0.074,-0.0595,56.5429,-5.493200000000002,financial_performance_growth,0.17275,True,8.985799999999998
+AXP,American Express,Financials,2019,True,306588,0.1028,0.1768,57.732299999999995,1.189399999999992,financial_performance_growth,0.21565,True,6.7376000000000005
+AXP,American Express,Financials,2020,True,356110,-0.0067,-0.1095,51.5009,-6.231399999999994,financial_performance_growth,0.23805,True,8.315999999999999
+AXP,American Express,Financials,2021,True,316003,0.2,0.20670000000000002,64.14500000000001,12.644100000000009,financial_performance_growth,0.2232,True,14.2979
+AXP,American Express,Financials,2022,True,291181,0.0283,-0.17170000000000002,61.7829,-2.3621000000000123,financial_performance_growth,0.31715,True,9.882899999999996
+AXP,American Express,Financials,2023,True,331078,-0.1455,-0.17379999999999998,63.640600000000006,1.8577000000000083,financial_performance_growth,0.358,True,9.817499999999999
+AXP,American Express,Financials,2024,True,450848,-0.1508,-0.005299999999999999,57.5804,-6.060200000000009,financial_performance_growth,0.54395,True,7.645199999999997
+BAC,Bank of America,Financials,2016,True,278490,-0.13,,58.5299,,financial_performance_growth,,,
+BAC,Bank of America,Financials,2017,True,340945,0.0068,0.1368,58.484700000000004,-0.045199999999994134,financial_performance_growth,0.1924,True,7.139600000000002
+BAC,Bank of America,Financials,2018,True,336288,0.0269,0.0201,60.097300000000004,1.6126000000000005,financial_performance_growth,0.20565,True,5.464
+BAC,Bank of America,Financials,2019,True,503159,0.0755,0.0486,59.82209999999999,-0.2752000000000123,financial_performance_growth,0.2712,True,12.891599999999997
+BAC,Bank of America,Financials,2020,True,392875,0.2027,0.12719999999999998,71.0404,11.218300000000013,financial_performance_growth,0.3107,True,11.2993
+BAC,Bank of America,Financials,2021,True,550343,0.3232,0.1205,66.57669999999999,-4.463700000000017,financial_performance_growth,0.3306,True,9.977299999999998
+BAC,Bank of America,Financials,2022,True,466526,0.2768,-0.0464,73.35079999999999,6.774100000000004,financial_performance_growth,0.33535,True,10.798300000000001
+BAC,Bank of America,Financials,2023,True,611641,0.2426,-0.03419999999999998,65.4469,-7.903899999999993,financial_performance_growth,0.421,True,7.9521000000000015
+BAC,Bank of America,Financials,2024,True,566016,0.261,0.0184,64.7684,-0.6784999999999997,financial_performance_growth,0.26205,True,11.7895
+BLK,BlackRock,Financials,2016,True,278066,-0.2778,,40.530100000000004,,financial_performance_growth,,,
+BLK,BlackRock,Financials,2017,True,305978,-0.1536,0.1242,57.6185,17.088399999999993,financial_performance_growth,0.11195,True,17.1082
+BLK,BlackRock,Financials,2018,True,342961,0.0343,0.18789999999999998,59.5987,1.9802000000000035,financial_performance_growth,0.5334,True,6.289399999999999
+BLK,BlackRock,Financials,2019,True,344645,0.0992,0.0649,64.24,4.641299999999994,financial_performance_growth,0.21545,True,4.7767
+BLK,BlackRock,Financials,2020,True,354507,0.1509,0.05170000000000001,70.4077,6.167700000000011,financial_performance_growth,0.44,True,7.689300000000006
+BLK,BlackRock,Financials,2021,True,407399,0.2081,0.0572,66.2005,-4.2072,financial_performance_growth,0.522,True,10.482199999999997
+BLK,BlackRock,Financials,2022,True,346894,0.2273,0.019199999999999995,74.0283,7.827799999999996,financial_performance_growth,0.1476,True,10.438599999999997
+BLK,BlackRock,Financials,2023,True,387886,0.1581,-0.06920000000000001,74.4807,0.45239999999999725,financial_performance_growth,0.43365,True,4.392600000000004
+BLK,BlackRock,Financials,2024,True,501834,0.0762,-0.08189999999999999,61.8929,-12.587800000000001,financial_performance_growth,0.5742,True,12.587800000000005
+BMY,Bristol-Myers Squibb,Healthcare,2016,True,309338,0.5536,,53.1781,,financial_performance_growth,,,
+BMY,Bristol-Myers Squibb,Healthcare,2017,True,451230,0.2377,-0.31589999999999996,48.400999999999996,-4.777100000000004,financial_performance_growth,0.36045,True,5.326500000000001
+BMY,Bristol-Myers Squibb,Healthcare,2018,True,310471,0.2714,0.03369999999999998,56.140600000000006,7.73960000000001,financial_performance_growth,0.36805,True,7.739600000000001
+BMY,Bristol-Myers Squibb,Healthcare,2019,True,291455,0.3702,0.0988,55.7204,-0.42020000000000834,financial_performance_growth,0.41205,True,2.1936000000000018
+BMY,Bristol-Myers Squibb,Healthcare,2020,True,358577,0.4183,0.04810000000000003,54.4653,-1.2550999999999988,financial_performance_growth,0.13295,True,7.234499999999997
+BMY,Bristol-Myers Squibb,Healthcare,2021,True,494247,0.3602,-0.058099999999999985,50.926100000000005,-3.539199999999994,financial_performance_growth,0.20275,True,9.115200000000002
+BMY,Bristol-Myers Squibb,Healthcare,2022,True,345232,0.521,0.1608,62.8273,11.901199999999996,financial_performance_growth,0.394,True,11.901200000000003
+BMY,Bristol-Myers Squibb,Healthcare,2023,True,379730,0.5129,-0.008099999999999996,67.1529,4.325600000000001,financial_performance_growth,0.45315,True,6.171599999999999
+BMY,Bristol-Myers Squibb,Healthcare,2024,True,415287,0.5089,-0.0040000000000000036,63.0167,-4.136200000000002,financial_performance_growth,0.23135,True,6.366000000000004
+BRK.B,Berkshire Hathaway,Financials,2016,True,61139,-0.5758,,35.0022,,financial_performance_growth,,,
+BRK.B,Berkshire Hathaway,Financials,2017,True,75432,-0.1667,0.4091,39.7709,4.7686999999999955,financial_performance_growth,0.93975,False,5.7431
+BRK.B,Berkshire Hathaway,Financials,2018,True,73826,0.0526,0.2193,44.2932,4.522300000000001,financial_performance_growth,0.86555,True,12.625699999999997
+BRK.B,Berkshire Hathaway,Financials,2019,True,62678,-0.0909,-0.1435,37.33369999999999,-6.959500000000006,financial_performance_growth,0.95695,False,11.629100000000001
+BRK.B,Berkshire Hathaway,Financials,2020,True,77010,0.52,0.6109,39.2157,1.882000000000005,financial_performance_growth,0.8574,True,4.978800000000001
+BRK.B,Berkshire Hathaway,Financials,2021,True,75421,-0.0833,-0.6033000000000001,46.4062,7.1905,financial_performance_growth,0.80135,True,14.8715
+BRK.B,Berkshire Hathaway,Financials,2022,True,82935,-0.3333,-0.25,46.54259999999999,0.13639999999999475,financial_performance_growth,0.7273,True,6.180199999999998
+BRK.B,Berkshire Hathaway,Financials,2023,True,98913,-0.3778,-0.04450000000000004,50.9538,4.411200000000008,financial_performance_growth,0.85615,True,5.963999999999998
+BRK.B,Berkshire Hathaway,Financials,2024,True,104118,0.0,0.3778,50.9036,-0.0502000000000038,financial_performance_growth,0.8991,True,8.835999999999999
+C,Citigroup,Financials,2016,True,518795,-0.2054,,51.4268,,financial_performance_growth,,,
+C,Citigroup,Financials,2017,True,393857,-0.2,0.005399999999999988,61.596,10.169199999999996,financial_performance_growth,0.18125,True,10.169199999999998
+C,Citigroup,Financials,2018,True,514750,-0.1214,0.07860000000000002,54.7645,-6.831499999999998,financial_performance_growth,0.4012,True,9.253299999999996
+C,Citigroup,Financials,2019,True,472690,-0.1678,-0.04640000000000001,55.596700000000006,0.8322000000000074,financial_performance_growth,0.33305,True,2.0572
+C,Citigroup,Financials,2020,True,509837,-0.2283,-0.0605,56.8613,1.2645999999999944,financial_performance_growth,0.3951,True,3.519399999999998
+C,Citigroup,Financials,2021,True,543055,-0.1343,0.094,57.3422,0.48089999999999833,financial_performance_growth,0.40075,True,7.9393
+C,Citigroup,Financials,2022,True,509405,-0.0936,0.0407,59.6777,2.3355000000000032,financial_performance_growth,0.5071,True,3.659900000000002
+C,Citigroup,Financials,2023,True,520513,-0.1162,-0.022599999999999995,61.9197,2.2419999999999973,financial_performance_growth,0.1854,True,6.008800000000002
+C,Citigroup,Financials,2024,True,542095,-0.1592,-0.04300000000000001,59.5836,-2.336100000000002,financial_performance_growth,0.40355,True,5.894500000000002
+COP,ConocoPhillips,Energy,2016,True,416600,0.2237,,51.2482,,financial_performance_growth,,,
+COP,ConocoPhillips,Energy,2017,True,441594,0.2857,0.062,52.310500000000005,1.0623000000000076,financial_performance_growth,0.5205,True,1.7969000000000037
+COP,ConocoPhillips,Energy,2018,True,401386,0.3111,0.025399999999999978,58.572100000000006,6.261600000000001,financial_performance_growth,0.0392,True,6.994399999999994
+COP,ConocoPhillips,Energy,2019,True,432410,0.3626,0.05149999999999999,57.7693,-0.8028000000000048,financial_performance_growth,0.20235,True,8.653199999999996
+COP,ConocoPhillips,Energy,2020,True,444154,0.3929,0.03030000000000005,57.975300000000004,0.20600000000000307,financial_performance_growth,0.31035,True,0.9464000000000012
+COP,ConocoPhillips,Energy,2021,True,484264,0.2606,-0.13230000000000003,57.7783,-0.19700000000000273,financial_performance_growth,0.26655,True,5.211000000000004
+COP,ConocoPhillips,Energy,2022,True,560167,0.3648,0.10420000000000001,54.8407,-2.9376000000000033,financial_performance_growth,0.2274,True,12.543199999999999
+COP,ConocoPhillips,Energy,2023,True,690268,0.3893,0.024499999999999966,51.0092,-3.8314999999999984,financial_performance_growth,0.1798,True,10.622699999999998
+COP,ConocoPhillips,Energy,2024,True,458497,0.3621,-0.027200000000000002,58.3864,7.377200000000002,financial_performance_growth,0.3658,True,7.476600000000001
+CRM,Salesforce,Technology,2016,True,238263,0.3654,,51.917500000000004,,financial_performance_growth,,,
+CRM,Salesforce,Technology,2017,True,503873,0.2299,-0.1355,44.8923,-7.025200000000005,financial_performance_growth,0.504,True,13.6452
+CRM,Salesforce,Technology,2018,True,528324,0.0374,-0.1925,39.1806,-5.7117,financial_performance_growth,0.4975,True,8.799700000000001
+CRM,Salesforce,Technology,2019,True,537327,0.122,0.0846,39.4731,0.292500000000004,financial_performance_growth,0.7094,True,1.4340999999999986
+CRM,Salesforce,Technology,2020,True,541593,0.2713,0.1493,46.8986,7.4254999999999995,financial_performance_growth,0.3851,True,8.273899999999998
+CRM,Salesforce,Technology,2021,True,438039,0.2174,-0.053899999999999976,53.9907,7.092099999999995,financial_performance_growth,0.67945,True,9.369699999999998
+CRM,Salesforce,Technology,2022,True,553249,0.3652,0.14780000000000001,48.7665,-5.224199999999996,financial_performance_growth,0.55175,True,8.2456
+CRM,Salesforce,Technology,2023,True,490498,0.3012,-0.064,54.7198,5.953299999999999,financial_performance_growth,0.3546,True,11.212900000000001
+CRM,Salesforce,Technology,2024,True,523207,0.2351,-0.06610000000000002,57.6636,2.943800000000003,financial_performance_growth,0.50355,True,4.3074
+CVX,Chevron,Energy,2016,True,410070,0.0037,,50.7231,,financial_performance_growth,,,
+CVX,Chevron,Energy,2017,True,348275,-0.0086,-0.0123,51.425,0.7018999999999949,financial_performance_growth,0.67495,True,4.9123
+CVX,Chevron,Energy,2018,True,357276,0.1284,0.13699999999999998,52.592299999999994,1.1672999999999973,financial_performance_growth,0.20035,True,3.2559
+CVX,Chevron,Energy,2019,True,364926,0.0169,-0.11149999999999999,55.7647,3.172400000000003,financial_performance_growth,0.5754,True,4.364799999999999
+CVX,Chevron,Energy,2020,True,381016,0.0,-0.0169,55.48309999999999,-0.2816000000000045,financial_performance_growth,0.41345,True,5.121799999999999
+CVX,Chevron,Energy,2021,True,391553,0.1491,0.1491,58.8172,3.3341000000000065,financial_performance_growth,0.257,True,9.126900000000001
+CVX,Chevron,Energy,2022,True,513371,0.1844,0.0353,51.85340000000001,-6.963799999999992,financial_performance_growth,0.5664,True,8.5792
+CVX,Chevron,Energy,2023,True,464322,0.1204,-0.06400000000000002,64.115,12.261599999999987,financial_performance_growth,0.08375,True,12.2616
+CVX,Chevron,Energy,2024,True,439186,0.0526,-0.0678,63.1395,-0.9754999999999967,financial_performance_growth,0.26805,True,4.854500000000003
+EOG,EOG Resources,Energy,2016,True,207629,0.1636,,45.5139,,financial_performance_growth,,,
+EOG,EOG Resources,Energy,2017,True,227627,0.2743,0.11069999999999999,44.283,-1.2308999999999983,financial_performance_growth,0.65535,True,4.4971
+EOG,EOG Resources,Energy,2018,True,264247,0.3488,0.07450000000000001,43.747,-0.5360000000000014,financial_performance_growth,0.81285,True,5.944199999999999
+EOG,EOG Resources,Energy,2019,True,229698,0.3333,-0.015500000000000014,50.239799999999995,6.4927999999999955,financial_performance_growth,0.8233,True,9.201199999999998
+EOG,EOG Resources,Energy,2020,True,230251,0.3071,-0.0262,53.0724,2.8326000000000064,financial_performance_growth,0.5694,True,2.8326000000000042
+EOG,EOG Resources,Energy,2021,True,363515,0.3146,0.007500000000000007,42.694199999999995,-10.378200000000007,financial_performance_growth,0.46525,True,11.085200000000004
+EOG,EOG Resources,Energy,2022,True,254858,0.4756,0.16100000000000003,55.795899999999996,13.101700000000001,financial_performance_growth,0.47145,True,13.830099999999998
+EOG,EOG Resources,Energy,2023,True,271716,0.4378,-0.0378,60.28359999999999,4.487699999999997,financial_performance_growth,0.27275,True,5.8873
+EOG,EOG Resources,Energy,2024,True,267884,0.3072,-0.13060000000000005,59.9141,-0.36949999999999505,financial_performance_growth,0.755,True,5.3008999999999995
+F,Ford Motor,Consumer Discretionary,2016,True,463710,0.2089,,35.0651,,financial_performance_growth,,,
+F,Ford Motor,Consumer Discretionary,2017,True,283798,0.3267,0.11779999999999999,54.616299999999995,19.551199999999994,financial_performance_growth,0.5269,True,19.551199999999998
+F,Ford Motor,Consumer Discretionary,2018,True,414601,0.2082,-0.1185,48.890299999999996,-5.725999999999999,financial_performance_growth,0.54145,True,8.829999999999998
+F,Ford Motor,Consumer Discretionary,2019,True,492890,0.1429,-0.0653,36.6613,-12.229,financial_performance_growth,0.649,True,12.377399999999998
+F,Ford Motor,Consumer Discretionary,2020,True,317489,0.0493,-0.0936,55.781499999999994,19.120199999999997,financial_performance_growth,0.54245,True,19.120199999999997
+F,Ford Motor,Consumer Discretionary,2021,True,382599,0.1609,0.11159999999999999,57.3185,1.5370000000000061,financial_performance_growth,0.48495,True,5.1968
+F,Ford Motor,Consumer Discretionary,2022,True,557557,0.0445,-0.11639999999999999,40.8031,-16.5154,financial_performance_growth,0.1985,True,16.5154
+F,Ford Motor,Consumer Discretionary,2023,True,414679,0.0576,0.0131,51.220200000000006,10.417100000000005,financial_performance_growth,0.2,True,10.4259
+F,Ford Motor,Consumer Discretionary,2024,True,410504,0.0819,0.024300000000000002,51.400299999999994,0.18009999999998882,financial_performance_growth,0.24835,True,3.683500000000002
+GOOGL,Alphabet,Technology,2016,True,317888,0.1304,,40.4231,,financial_performance_growth,,,
+GOOGL,Alphabet,Technology,2017,True,314625,0.2432,0.11280000000000001,42.1772,1.754100000000001,financial_performance_growth,0.2225,True,2.231700000000001
+GOOGL,Alphabet,Technology,2018,True,310828,0.0803,-0.1629,43.14280000000001,0.9656000000000091,financial_performance_growth,0.7272,True,4.0291999999999994
+GOOGL,Alphabet,Technology,2019,True,351435,0.2302,0.14989999999999998,43.990899999999996,0.8480999999999881,financial_performance_growth,0.5937,True,10.768500000000003
+GOOGL,Alphabet,Technology,2020,True,328247,0.2489,0.018700000000000022,44.2653,0.2744000000000071,financial_performance_growth,0.25415,True,3.799199999999998
+GOOGL,Alphabet,Technology,2021,True,337395,0.2389,-0.010000000000000009,48.5782,4.312899999999999,financial_performance_growth,0.5742,True,7.635299999999999
+GOOGL,Alphabet,Technology,2022,True,508643,0.0802,-0.1587,49.6026,1.0244,financial_performance_growth,0.41195,True,10.2562
+GOOGL,Alphabet,Technology,2023,True,461025,0.1731,0.09290000000000001,52.4483,2.845700000000001,financial_performance_growth,0.31965,True,12.846499999999999
+GOOGL,Alphabet,Technology,2024,True,381274,-0.0562,-0.2293,60.9273,8.479,financial_performance_growth,0.48825,True,10.010200000000001
+GS,Goldman Sachs,Financials,2016,True,312089,-0.2704,,56.7787,,financial_performance_growth,,,
+GS,Goldman Sachs,Financials,2017,False,0,0.0,,0.0,,,,,
+GS,Goldman Sachs,Financials,2018,True,456217,-0.1534,0.11699999999999997,45.548500000000004,-11.230199999999996,financial_performance_growth,0.1999,True,11.230199999999996
+GS,Goldman Sachs,Financials,2019,True,345467,-0.2,-0.0466,56.561099999999996,11.012599999999992,financial_performance_growth,0.17495,True,11.138599999999999
+GS,Goldman Sachs,Financials,2020,True,318918,-0.0307,0.1693,63.3706,6.809500000000007,financial_performance_growth,0.15145,True,7.210100000000001
+GS,Goldman Sachs,Financials,2021,True,499649,-0.0107,0.020000000000000004,54.15809999999999,-9.212500000000013,financial_performance_growth,0.3377,True,10.027100000000003
+GS,Goldman Sachs,Financials,2022,True,398620,0.0129,0.0236,65.30040000000001,11.14230000000002,financial_performance_growth,0.2901,True,13.121500000000003
+GS,Goldman Sachs,Financials,2023,False,0,0.0,,0.0,,,,,
+GS,Goldman Sachs,Financials,2024,True,463352,-0.0678,-0.0807,63.3644,-1.936000000000007,financial_performance_growth,0.3637,True,9.1158
+HAL,Halliburton,Energy,2016,True,239077,0.2294,,49.607299999999995,,financial_performance_growth,,,
+HAL,Halliburton,Energy,2017,True,329805,0.3191,0.0897,45.754400000000004,-3.852899999999991,financial_performance_growth,0.38655,True,3.9236999999999997
+HAL,Halliburton,Energy,2018,True,209104,0.1897,-0.1294,48.20569999999999,2.451299999999989,financial_performance_growth,0.22055,True,3.4980999999999987
+HAL,Halliburton,Energy,2019,True,275983,0.1489,-0.0408,48.2638,0.058100000000010255,financial_performance_growth,0.4514,True,6.143699999999999
+HAL,Halliburton,Energy,2020,True,274664,0.1549,0.006000000000000005,49.8428,1.5789999999999935,financial_performance_growth,0.43505,True,2.4236000000000013
+HAL,Halliburton,Energy,2021,True,322766,0.2581,0.10319999999999999,48.8588,-0.9839999999999947,financial_performance_growth,0.48595,True,4.063199999999995
+HAL,Halliburton,Energy,2022,True,217254,0.25,-0.008099999999999996,63.47409999999999,14.61529999999999,financial_performance_growth,0.09795,True,17.092299999999994
+HAL,Halliburton,Energy,2023,True,309485,0.2417,-0.008300000000000002,59.906000000000006,-3.568099999999987,financial_performance_growth,0.48835,True,10.597299999999994
+HAL,Halliburton,Energy,2024,True,337644,0.3596,0.11789999999999998,60.1817,0.2756999999999934,financial_performance_growth,0.33185,True,3.5258999999999956
+HD,Home Depot,Consumer Discretionary,2016,True,240489,0.0789,,50.230999999999995,,financial_performance_growth,,,
+HD,Home Depot,Consumer Discretionary,2017,True,264656,0.1932,0.11430000000000001,51.652,1.4210000000000065,financial_performance_growth,0.41375,True,2.3454000000000015
+HD,Home Depot,Consumer Discretionary,2018,True,278943,0.1512,-0.04200000000000001,52.949799999999996,1.2977999999999952,financial_performance_growth,0.53155,True,2.562399999999998
+HD,Home Depot,Consumer Discretionary,2019,True,284000,0.1695,0.01830000000000001,55.9156,2.9658000000000015,financial_performance_growth,0.4255,True,5.712
+HD,Home Depot,Consumer Discretionary,2020,True,307570,0.1286,-0.04090000000000002,57.4179,1.5023000000000053,financial_performance_growth,0.60945,True,2.1404999999999994
+HD,Home Depot,Consumer Discretionary,2021,True,298361,0.1008,-0.02779999999999999,56.7769,-0.6410000000000053,financial_performance_growth,0.3941,True,6.245999999999998
+HD,Home Depot,Consumer Discretionary,2022,True,414463,0.2366,0.1358,53.6597,-3.117199999999997,financial_performance_growth,0.48605,True,8.994200000000003
+HD,Home Depot,Consumer Discretionary,2023,True,346803,0.2298,-0.0068000000000000005,57.352599999999995,3.6928999999999945,financial_performance_growth,0.47675,True,7.239699999999999
+HD,Home Depot,Consumer Discretionary,2024,True,347027,0.1269,-0.10289999999999999,57.3442,-0.008399999999994634,financial_performance_growth,0.6747,True,6.3877999999999995
+IBM,IBM,Technology,2016,True,286718,0.381,,44.4687,,financial_performance_growth,,,
+IBM,IBM,Technology,2017,True,312051,0.344,-0.03700000000000003,44.1593,-0.30939999999999657,financial_performance_growth,0.8817,True,1.9554000000000005
+IBM,IBM,Technology,2018,True,322879,0.378,0.03400000000000003,46.9216,2.762299999999996,financial_performance_growth,0.1445,True,4.0935
+IBM,IBM,Technology,2019,True,359864,0.4839,0.1059,51.5195,4.597900000000003,financial_performance_growth,0.238,True,5.101699999999999
+IBM,IBM,Technology,2020,True,357639,0.6126,0.12870000000000004,51.6723,0.15279999999999916,financial_performance_growth,0.28395,True,4.265599999999999
+IBM,IBM,Technology,2021,True,379074,0.6692,0.056599999999999984,54.8442,3.171900000000001,financial_performance_growth,0.3435,True,7.426900000000002
+IBM,IBM,Technology,2022,True,366567,0.576,-0.09320000000000006,51.2321,-3.612099999999998,financial_performance_growth,0.2494,True,5.492299999999998
+IBM,IBM,Technology,2023,True,385062,0.4101,-0.16589999999999994,49.758300000000006,-1.4737999999999971,financial_performance_growth,0.3611,True,4.392799999999999
+IBM,IBM,Technology,2024,True,361169,0.4232,0.0131,52.6901,2.9317999999999955,financial_performance_growth,0.3522,True,8.3768
+INTC,Intel,Technology,2016,True,263938,0.2308,,56.3391,,financial_performance_growth,,,
+INTC,Intel,Technology,2017,True,390487,0.2218,-0.009000000000000008,48.144999999999996,-8.194100000000006,financial_performance_growth,0.3983,True,8.659099999999999
+INTC,Intel,Technology,2018,True,333090,0.1918,-0.03,58.21249999999999,10.067499999999995,financial_performance_growth,0.21275,True,10.831299999999999
+INTC,Intel,Technology,2019,True,476851,0.2401,0.04830000000000001,58.550700000000006,0.3382000000000147,financial_performance_growth,0.14905,True,11.574199999999998
+INTC,Intel,Technology,2020,True,482281,0.354,0.11389999999999997,68.259,9.708299999999994,financial_performance_growth,0.2041,True,10.335699999999997
+INTC,Intel,Technology,2021,True,442691,0.432,0.07800000000000001,70.7716,2.512600000000006,financial_performance_growth,0.1671,True,8.125
+INTC,Intel,Technology,2022,True,587092,0.4087,-0.023299999999999987,65.4753,-5.296300000000002,financial_performance_growth,0.11325,True,5.365899999999996
+INTC,Intel,Technology,2023,True,573639,0.4128,0.0040999999999999925,61.46719999999999,-4.008100000000013,financial_performance_growth,0.13175,True,6.8831000000000016
+INTC,Intel,Technology,2024,True,434023,0.2239,-0.1889,69.69669999999999,8.229500000000002,financial_performance_growth,0.06885,True,12.0521
+JNJ,Johnson & Johnson,Healthcare,2016,True,274829,0.3719,,56.8354,,financial_performance_growth,,,
+JNJ,Johnson & Johnson,Healthcare,2017,True,342820,0.3605,-0.011400000000000021,53.4392,-3.3962000000000003,financial_performance_growth,0.3343,True,7.601199999999997
+JNJ,Johnson & Johnson,Healthcare,2018,True,267902,0.2152,-0.14529999999999998,62.0375,8.598300000000002,financial_performance_growth,0.4216,True,8.598300000000002
+JNJ,Johnson & Johnson,Healthcare,2019,True,298343,0.0707,-0.14450000000000002,61.9756,-0.0619000000000014,financial_performance_growth,0.3773,True,2.4757000000000033
+JNJ,Johnson & Johnson,Healthcare,2020,True,321461,-0.12,-0.19069999999999998,62.309200000000004,0.3336000000000041,financial_performance_growth,0.39545,True,4.455399999999996
+JNJ,Johnson & Johnson,Healthcare,2021,True,377525,0.1907,0.3107,68.1545,5.845299999999995,financial_performance_growth,0.14145,True,16.3855
+JNJ,Johnson & Johnson,Healthcare,2022,True,619218,0.2312,0.04049999999999998,66.3902,-1.7643000000000058,financial_performance_growth,0.1518,True,9.192900000000002
+JNJ,Johnson & Johnson,Healthcare,2023,True,393016,0.0478,-0.18339999999999998,72.4143,6.024100000000004,financial_performance_growth,0.0541,True,18.0165
+JNJ,Johnson & Johnson,Healthcare,2024,True,347211,0.0741,0.026299999999999997,72.319,-0.09529999999999461,financial_performance_growth,0.0603,True,5.578099999999999
+JPM,JPMorgan Chase,Financials,2016,True,351738,0.0064,,60.6133,,financial_performance_growth,,,
+JPM,JPMorgan Chase,Financials,2017,True,319783,-0.0445,-0.0509,60.97880000000001,0.3655000000000044,financial_performance_growth,0.32915,True,8.444899999999997
+JPM,JPMorgan Chase,Financials,2018,True,413885,-0.0086,0.0359,52.5265,-8.452300000000008,financial_performance_growth,0.1093,True,9.344500000000002
+JPM,JPMorgan Chase,Financials,2019,True,333681,0.0373,0.045899999999999996,63.08410000000001,10.557600000000008,financial_performance_growth,0.3202,True,11.134000000000004
+JPM,JPMorgan Chase,Financials,2020,True,365880,0.1787,0.1414,67.1806,4.096499999999992,financial_performance_growth,0.3587,True,6.7017
+JPM,JPMorgan Chase,Financials,2021,True,440290,0.1632,-0.015499999999999986,64.3212,-2.8593999999999937,financial_performance_growth,0.5146,True,6.642200000000003
+JPM,JPMorgan Chase,Financials,2022,True,415001,0.2444,0.0812,69.2771,4.9559,financial_performance_growth,0.5581,True,8.095300000000002
+JPM,JPMorgan Chase,Financials,2023,True,457390,0.2365,-0.007900000000000018,65.78620000000001,-3.4908999999999963,financial_performance_growth,0.4618,True,7.4887
+JPM,JPMorgan Chase,Financials,2024,True,493425,0.12,-0.11649999999999999,62.664,-3.1222000000000065,financial_performance_growth,0.5301,True,7.406199999999998
+LLY,Eli Lilly,Healthcare,2016,True,199082,0.2857,,57.61450000000001,,financial_performance_growth,,,
+LLY,Eli Lilly,Healthcare,2017,True,279780,0.4452,0.15949999999999998,49.682,-7.9325000000000045,financial_performance_growth,0.3592,True,8.0601
+LLY,Eli Lilly,Healthcare,2018,True,373723,0.3244,-0.12079999999999996,46.4516,-3.230400000000003,financial_performance_growth,0.2254,True,3.2922000000000002
+LLY,Eli Lilly,Healthcare,2019,True,249610,0.4857,0.1613,60.73480000000001,14.283200000000008,financial_performance_growth,0.1807,True,14.2832
+LLY,Eli Lilly,Healthcare,2020,True,291069,0.3004,-0.18530000000000002,59.6079,-1.1269000000000062,financial_performance_growth,0.152,True,4.685100000000006
+LLY,Eli Lilly,Healthcare,2021,True,332753,0.4109,0.11049999999999999,64.55250000000001,4.944600000000008,financial_performance_growth,0.182,True,6.460400000000003
+LLY,Eli Lilly,Healthcare,2022,True,373570,0.375,-0.03589999999999999,61.380799999999994,-3.1717000000000155,financial_performance_growth,0.06025,True,10.615300000000001
+LLY,Eli Lilly,Healthcare,2023,True,405940,0.3589,-0.016100000000000003,69.61619999999999,8.235399999999998,financial_performance_growth,0.05525,True,10.354600000000003
+LLY,Eli Lilly,Healthcare,2024,True,362907,0.3716,0.012699999999999989,68.86059999999999,-0.7556000000000012,financial_performance_growth,0.2189,True,3.1589999999999985
+LOW,Lowe's,Consumer Discretionary,2016,True,252843,0.4303,,54.2629,,financial_performance_growth,,,
+LOW,Lowe's,Consumer Discretionary,2017,True,227455,0.411,-0.01930000000000004,55.395700000000005,1.1328000000000031,financial_performance_growth,0.53075,True,3.808999999999997
+LOW,Lowe's,Consumer Discretionary,2018,True,231690,0.2883,-0.12269999999999998,55.0304,-0.36530000000000484,financial_performance_growth,0.52125,True,5.110500000000004
+LOW,Lowe's,Consumer Discretionary,2019,True,251496,0.3029,0.014600000000000002,53.0822,-1.9482,financial_performance_growth,0.58275,True,6.151200000000001
+LOW,Lowe's,Consumer Discretionary,2020,True,278051,0.4368,0.13390000000000002,52.2565,-0.8256999999999977,financial_performance_growth,0.657,True,8.3041
+LOW,Lowe's,Consumer Discretionary,2021,True,277916,0.262,-0.1748,65.99119999999999,13.73469999999999,financial_performance_growth,0.16315,True,13.734699999999997
+LOW,Lowe's,Consumer Discretionary,2022,True,414875,0.3039,0.04189999999999999,57.535399999999996,-8.455799999999996,financial_performance_growth,0.2327,True,15.255399999999998
+LOW,Lowe's,Consumer Discretionary,2023,True,299373,0.277,-0.02689999999999998,61.1611,3.625700000000002,financial_performance_growth,0.4281,True,15.361899999999999
+LOW,Lowe's,Consumer Discretionary,2024,True,284179,0.2231,-0.05390000000000003,61.4401,0.27900000000000347,financial_performance_growth,0.5043,True,1.831999999999999
+MCD,McDonald's,Consumer Discretionary,2016,True,234367,0.4156,,44.076100000000004,,financial_performance_growth,,,
+MCD,McDonald's,Consumer Discretionary,2017,True,330056,0.4286,0.012999999999999956,44.628800000000005,0.5527000000000015,financial_performance_growth,0.0887,True,3.6012999999999984
+MCD,McDonald's,Consumer Discretionary,2018,True,246720,0.2928,-0.13579999999999998,55.6905,11.061699999999995,financial_performance_growth,0.18295,True,11.061699999999998
+MCD,McDonald's,Consumer Discretionary,2019,True,240906,0.4979,0.2051,56.91,1.2194999999999965,financial_performance_growth,0.18775,True,6.215300000000001
+MCD,McDonald's,Consumer Discretionary,2020,True,336470,0.4295,-0.06840000000000002,46.5421,-10.367899999999999,financial_performance_growth,0.26115,True,11.8729
+MCD,McDonald's,Consumer Discretionary,2021,True,260875,0.4327,0.0031999999999999806,57.268699999999995,10.726599999999998,financial_performance_growth,0.16095,True,10.891
+MCD,McDonald's,Consumer Discretionary,2022,False,0,0.0,,0.0,,,,,
+MCD,McDonald's,Consumer Discretionary,2023,True,371035,0.5251,0.09240000000000004,55.9786,-1.2900999999999954,financial_performance_growth,0.11095,True,7.472899999999999
+MCD,McDonald's,Consumer Discretionary,2024,True,387302,0.5436,0.01849999999999996,50.167699999999996,-5.810900000000004,financial_performance_growth,0.1439,True,5.810899999999997
+MDT,Medtronic,Healthcare,2016,True,590769,0.1429,,30.0287,,financial_performance_growth,,,
+MDT,Medtronic,Healthcare,2017,True,424517,0.1702,0.02729999999999999,48.4551,18.4264,financial_performance_growth,0.30305,True,18.7678
+MDT,Medtronic,Healthcare,2018,True,258824,-0.0563,-0.22649999999999998,61.9339,13.4788,financial_performance_growth,0.53465,True,13.641000000000005
+MDT,Medtronic,Healthcare,2019,True,278156,-0.0066,0.0497,59.1395,-2.794400000000003,financial_performance_growth,0.60745,True,3.2893999999999997
+MDT,Medtronic,Healthcare,2020,True,303227,0.0435,0.0501,60.0869,0.9474000000000018,financial_performance_growth,0.53205,True,1.9692000000000052
+MDT,Medtronic,Healthcare,2021,True,458363,0.0927,0.04920000000000001,50.5056,-9.581299999999999,financial_performance_growth,0.62055,True,10.059299999999997
+MDT,Medtronic,Healthcare,2022,True,292830,0.0235,-0.06920000000000001,63.279,12.773400000000002,financial_performance_growth,0.5741,True,12.7734
+MDT,Medtronic,Healthcare,2023,True,338101,0.0215,-0.0020000000000000018,56.8471,-6.431900000000006,financial_performance_growth,0.55285,True,11.0177
+MDT,Medtronic,Healthcare,2024,True,298599,0.1214,0.09989999999999999,62.5922,5.745100000000001,financial_performance_growth,0.69075,True,10.028299999999998
+META,Meta Platforms,Technology,2016,True,754192,0.2456,,28.175999999999995,,financial_performance_growth,,,
+META,Meta Platforms,Technology,2017,True,186226,0.2673,0.02169999999999997,50.3154,22.139400000000002,financial_performance_growth,0.6247,True,22.901999999999997
+META,Meta Platforms,Technology,2018,True,198547,-0.1448,-0.4121,51.070899999999995,0.7554999999999978,financial_performance_growth,0.63685,True,3.083300000000002
+META,Meta Platforms,Technology,2019,True,255279,0.0756,0.2204,56.29140000000001,5.2205000000000155,financial_performance_growth,0.79165,True,7.493499999999997
+META,Meta Platforms,Technology,2020,True,305874,0.0623,-0.0133,60.3516,4.060199999999988,financial_performance_growth,0.66215,True,7.6827999999999985
+META,Meta Platforms,Technology,2021,True,334017,0.1602,0.09790000000000001,66.3141,5.962499999999999,financial_performance_growth,0.18335,True,8.314500000000002
+META,Meta Platforms,Technology,2022,True,335987,0.0465,-0.11370000000000001,60.895300000000006,-5.41879999999999,financial_performance_growth,0.1571,True,7.951000000000002
+META,Meta Platforms,Technology,2023,True,380457,0.1423,0.09580000000000001,62.6352,1.7398999999999916,financial_performance_growth,0.17275,True,7.5943000000000005
+META,Meta Platforms,Technology,2024,True,499847,0.1322,-0.010099999999999998,53.6965,-8.938699999999997,financial_performance_growth,0.53375,True,10.1619
+MPC,Marathon Petroleum,Energy,2016,True,376980,0.2754,,50.825,,financial_performance_growth,,,
+MPC,Marathon Petroleum,Energy,2017,True,455012,0.1538,-0.12159999999999999,50.4821,-0.3429000000000002,financial_performance_growth,0.43515,True,5.1766999999999985
+MPC,Marathon Petroleum,Energy,2018,True,367039,0.2233,0.0695,50.948299999999996,0.4661999999999935,financial_performance_growth,0.24385,True,6.320599999999998
+MPC,Marathon Petroleum,Energy,2019,True,289181,0.2418,0.01849999999999999,57.3343,6.386000000000003,financial_performance_growth,0.14,True,7.090200000000003
+MPC,Marathon Petroleum,Energy,2020,True,288002,0.2808,0.03900000000000001,62.2911,4.956800000000001,financial_performance_growth,0.102,True,7.273200000000001
+MPC,Marathon Petroleum,Energy,2021,True,459168,0.2527,-0.028100000000000014,52.507999999999996,-9.783100000000005,financial_performance_growth,0.109,True,13.281700000000006
+MPC,Marathon Petroleum,Energy,2022,True,332220,0.3208,0.0681,61.0138,8.505800000000008,financial_performance_growth,0.4672,True,9.408400000000004
+MPC,Marathon Petroleum,Energy,2023,True,338818,0.2887,-0.03209999999999996,59.6483,-1.3655000000000044,financial_performance_growth,0.1616,True,4.0957000000000034
+MPC,Marathon Petroleum,Energy,2024,True,328388,0.2545,-0.03420000000000001,60.1422,0.49390000000000356,financial_performance_growth,0.48605,True,2.465900000000001
+MRK,Merck,Healthcare,2016,True,285683,0.3737,,50.7555,,financial_performance_growth,,,
+MRK,Merck,Healthcare,2017,True,299001,0.3036,-0.0701,50.334199999999996,-0.42130000000000223,financial_performance_growth,0.5474,True,6.0831
+MRK,Merck,Healthcare,2018,True,270513,0.3833,0.0797,49.8682,-0.465999999999994,financial_performance_growth,0.19875,True,2.546400000000002
+MRK,Merck,Healthcare,2019,True,370592,0.2171,-0.1662,45.8455,-4.0227,financial_performance_growth,0.1021,True,6.1953000000000005
+MRK,Merck,Healthcare,2020,True,278258,0.3136,0.0965,53.547399999999996,7.701899999999995,financial_performance_growth,0.09525,True,7.731299999999999
+MRK,Merck,Healthcare,2021,True,289605,0.4343,0.12070000000000003,51.4494,-2.097999999999999,financial_performance_growth,0.2337,True,4.8298000000000005
+MRK,Merck,Healthcare,2022,True,325455,0.3617,-0.0726,51.620000000000005,0.1706000000000074,financial_performance_growth,0.1736,True,7.681199999999999
+MRK,Merck,Healthcare,2023,True,382206,0.2893,-0.07240000000000002,51.9092,0.2891999999999939,financial_performance_growth,0.2098,True,5.934599999999998
+MRK,Merck,Healthcare,2024,True,343373,0.2963,0.007000000000000006,57.2555,5.346299999999999,financial_performance_growth,0.1739,True,7.027900000000001
+MS,Morgan Stanley,Financials,2016,True,353568,-0.2456,,54.105599999999995,,financial_performance_growth,,,
+MS,Morgan Stanley,Financials,2017,True,436784,-0.1875,0.05810000000000001,52.0394,-2.066199999999995,financial_performance_growth,0.47835,True,7.136800000000001
+MS,Morgan Stanley,Financials,2018,True,277202,-0.1672,0.020300000000000012,63.455600000000004,11.416200000000003,financial_performance_growth,0.4426,True,11.978600000000004
+MS,Morgan Stanley,Financials,2019,True,291581,-0.142,0.0252,64.3389,0.8832999999999913,financial_performance_growth,0.53515,True,3.980299999999998
+MS,Morgan Stanley,Financials,2020,True,285709,-0.1419,9.999999999998899e-05,64.1911,-0.1477999999999895,financial_performance_growth,0.5367,True,3.0904
+MS,Morgan Stanley,Financials,2021,True,349271,-0.1562,-0.014300000000000007,60.297,-3.8941000000000088,financial_performance_growth,0.38845,True,10.009699999999999
+MS,Morgan Stanley,Financials,2022,True,294873,-0.0361,0.12010000000000001,67.65639999999999,7.359399999999994,financial_performance_growth,0.46395,True,11.623799999999997
+MS,Morgan Stanley,Financials,2023,True,327075,-0.0698,-0.0337,69.2807,1.6243000000000052,financial_performance_growth,0.62735,True,8.2681
+MS,Morgan Stanley,Financials,2024,True,445454,-0.1475,-0.07769999999999999,63.6654,-5.615299999999998,financial_performance_growth,0.35145,True,9.807300000000003
+MSFT,Microsoft,Technology,2016,True,292011,0.4178,,53.319900000000004,,financial_performance_growth,,,
+MSFT,Microsoft,Technology,2017,True,341925,0.3866,-0.031200000000000006,51.7949,-1.5250000000000057,financial_performance_growth,0.29065,True,4.928199999999999
+MSFT,Microsoft,Technology,2018,True,227714,0.2273,-0.1593,62.534800000000004,10.739900000000006,financial_performance_growth,0.2062,True,10.7399
+MSFT,Microsoft,Technology,2019,True,248785,0.4378,0.21050000000000002,65.7595,3.2246999999999986,financial_performance_growth,0.26635,True,7.094100000000001
+MSFT,Microsoft,Technology,2020,True,266479,0.3588,-0.07900000000000001,68.8609,3.101399999999998,financial_performance_growth,0.40265,True,8.575600000000001
+MSFT,Microsoft,Technology,2021,True,353635,0.3939,0.035099999999999965,63.879400000000004,-4.981499999999997,financial_performance_growth,0.46505,True,14.687300000000004
+MSFT,Microsoft,Technology,2022,True,314638,0.3753,-0.01859999999999995,71.0022,7.122799999999998,financial_performance_growth,0.5117,True,12.892800000000001
+MSFT,Microsoft,Technology,2023,True,344004,0.2222,-0.1531,67.09219999999999,-3.910000000000011,financial_performance_growth,0.5955,True,8.192
+MSFT,Microsoft,Technology,2024,True,346024,0.2358,0.013600000000000001,71.4692,4.3770000000000095,financial_performance_growth,0.5247,True,9.8946
+NKE,Nike,Consumer Discretionary,2016,True,204434,-0.0097,,51.116699999999994,,financial_performance_growth,,,
+NKE,Nike,Consumer Discretionary,2017,True,203179,-0.1183,-0.1086,49.217699999999994,-1.899000000000001,financial_performance_growth,0.9013,False,3.618599999999995
+NKE,Nike,Consumer Discretionary,2018,True,191318,-0.0309,0.0874,54.5687,5.351000000000006,financial_performance_growth,0.65885,True,9.423399999999997
+NKE,Nike,Consumer Discretionary,2019,True,180656,-0.0575,-0.026600000000000002,61.7749,7.206200000000003,financial_performance_growth,0.37165,True,7.206200000000003
+NKE,Nike,Consumer Discretionary,2020,True,275401,0.1385,0.196,48.8016,-12.973300000000002,financial_performance_growth,0.3301,True,13.4781
+NKE,Nike,Consumer Discretionary,2021,True,254136,0.476,0.33749999999999997,65.8702,17.068599999999996,financial_performance_growth,0.7242,True,18.858200000000004
+NKE,Nike,Consumer Discretionary,2022,True,244405,0.2568,-0.2192,56.5454,-9.324799999999996,financial_performance_growth,0.63195,True,12.710800000000003
+NKE,Nike,Consumer Discretionary,2023,True,245924,0.3986,0.14180000000000004,62.986999999999995,6.441599999999994,financial_performance_growth,0.36065,True,8.358800000000002
+NKE,Nike,Consumer Discretionary,2024,True,252172,0.2707,-0.1279,60.077999999999996,-2.908999999999999,financial_performance_growth,0.77795,True,4.944600000000002
+NVDA,NVIDIA,Technology,2016,True,416234,0.2642,,41.0105,,financial_performance_growth,,,
+NVDA,NVIDIA,Technology,2017,True,187401,0.1525,-0.1117,54.69540000000001,13.684900000000006,financial_performance_growth,0.52235,True,19.575100000000003
+NVDA,NVIDIA,Technology,2018,True,390356,0.3032,0.15070000000000003,38.042199999999994,-16.653200000000012,financial_performance_growth,0.5283,True,22.223000000000003
+NVDA,NVIDIA,Technology,2019,True,189583,0.1618,-0.14140000000000003,48.263999999999996,10.221800000000002,financial_performance_growth,0.59135,True,15.838199999999997
+NVDA,NVIDIA,Technology,2020,True,389117,0.2727,0.1109,38.446,-9.817999999999998,financial_performance_growth,0.6625,True,16.316599999999998
+NVDA,NVIDIA,Technology,2021,True,211568,0.303,0.030299999999999994,57.192,18.746000000000002,financial_performance_growth,0.3913,True,18.746000000000002
+NVDA,NVIDIA,Technology,2022,False,964,0.0,,0.0,,,,,
+NVDA,NVIDIA,Technology,2023,True,251743,-0.0152,-0.3182,59.2269,2.0349000000000004,financial_performance_growth,0.38105,True,4.804099999999998
+NVDA,NVIDIA,Technology,2024,True,256884,0.1086,0.12380000000000001,60.455299999999994,1.2283999999999935,financial_performance_growth,0.53315,True,4.396999999999999
+ORCL,Oracle,Technology,2016,True,267909,0.0541,,49.568999999999996,,financial_performance_growth,,,
+ORCL,Oracle,Technology,2017,True,378616,0.133,0.0789,50.0771,0.508100000000006,financial_performance_growth,0.41265,True,10.2579
+ORCL,Oracle,Technology,2018,True,301746,0.1412,0.008199999999999985,56.9684,6.891300000000001,financial_performance_growth,0.5953,True,8.424100000000003
+ORCL,Oracle,Technology,2019,True,284664,-0.022,-0.16319999999999998,55.4338,-1.5346000000000046,financial_performance_growth,0.4036,True,3.8267999999999986
+ORCL,Oracle,Technology,2020,True,399460,0.0246,0.0466,48.7158,-6.717999999999996,financial_performance_growth,0.31315,True,8.240599999999997
+ORCL,Oracle,Technology,2021,True,421287,0.0429,0.0183,49.89490000000001,1.1791000000000054,financial_performance_growth,0.7402,True,3.3703000000000003
+ORCL,Oracle,Technology,2022,True,279600,-0.1006,-0.1435,55.25749999999999,5.362599999999986,financial_performance_growth,0.46565,True,10.518400000000003
+ORCL,Oracle,Technology,2023,True,441566,0.0741,0.1747,52.812,-2.4454999999999956,financial_performance_growth,0.7122,True,7.141299999999998
+ORCL,Oracle,Technology,2024,True,312410,-0.1858,-0.2599,59.217,6.405000000000001,financial_performance_growth,0.79365,True,12.249399999999994
+OXY,Occidental Petroleum,Energy,2016,True,229751,0.1667,,55.9301,,financial_performance_growth,,,
+OXY,Occidental Petroleum,Energy,2017,True,239742,0.4388,0.2721,57.186499999999995,1.2563999999999922,financial_performance_growth,0.3237,True,5.8378
+OXY,Occidental Petroleum,Energy,2018,True,360304,0.2251,-0.21370000000000003,47.7375,-9.448999999999998,financial_performance_growth,0.32925,True,11.516200000000001
+OXY,Occidental Petroleum,Energy,2019,True,210174,0.3562,0.13110000000000002,66.8019,19.064400000000006,financial_performance_growth,0.35435,True,19.0644
+OXY,Occidental Petroleum,Energy,2020,True,698065,0.196,-0.1602,32.4039,-34.398,financial_performance_growth,0.0931,True,34.397999999999996
+OXY,Occidental Petroleum,Energy,2021,True,306584,0.3396,0.1436,59.3639,26.96,financial_performance_growth,0.1411,True,26.960000000000004
+OXY,Occidental Petroleum,Energy,2022,True,331360,0.3274,-0.012199999999999989,59.150099999999995,-0.2138000000000062,financial_performance_growth,0.1373,True,13.742200000000004
+OXY,Occidental Petroleum,Energy,2023,True,340399,0.3852,0.05779999999999996,65.8639,6.713800000000006,financial_performance_growth,0.25795,True,14.460200000000004
+OXY,Occidental Petroleum,Energy,2024,True,317754,0.3846,-0.0005999999999999894,67.4422,1.5782999999999987,financial_performance_growth,0.3116,True,4.962499999999997
+PFE,Pfizer,Healthcare,2016,True,392516,0.4164,,57.985,,financial_performance_growth,,,
+PFE,Pfizer,Healthcare,2017,True,418098,0.375,-0.04139999999999999,59.890299999999996,1.9052999999999969,financial_performance_growth,0.2555,True,4.798500000000004
+PFE,Pfizer,Healthcare,2018,True,466414,0.4078,0.032799999999999996,57.3738,-2.5164999999999935,financial_performance_growth,0.38615,True,4.234699999999998
+PFE,Pfizer,Healthcare,2019,True,556916,0.3333,-0.07450000000000001,54.7479,-2.6259000000000015,financial_performance_growth,0.35695,True,5.101099999999999
+PFE,Pfizer,Healthcare,2020,True,452510,0.4025,0.06920000000000004,62.319,7.571100000000001,financial_performance_growth,0.29375,True,10.372100000000001
+PFE,Pfizer,Healthcare,2021,True,442809,0.3913,-0.011200000000000043,59.1451,-3.1739000000000033,financial_performance_growth,0.15365,True,6.094099999999999
+PFE,Pfizer,Healthcare,2022,True,381306,0.1551,-0.2362,56.647499999999994,-2.4976000000000056,financial_performance_growth,0.1588,True,5.3828000000000005
+PFE,Pfizer,Healthcare,2023,True,422949,0.3401,0.18500000000000003,56.4134,-0.23409999999999087,financial_performance_growth,0.1225,True,2.855500000000001
+PFE,Pfizer,Healthcare,2024,True,502942,0.2257,-0.1144,52.4911,-3.9223,financial_performance_growth,0.06295,True,7.039700000000003
+PSX,Phillips 66,Energy,2016,True,237325,0.2093,,54.1874,,financial_performance_growth,,,
+PSX,Phillips 66,Energy,2017,True,217576,0.1478,-0.06150000000000003,58.783899999999996,4.596499999999999,financial_performance_growth,0.3847,True,6.436499999999997
+PSX,Phillips 66,Energy,2018,True,253417,0.1145,-0.03329999999999998,57.1391,-1.6447999999999965,financial_performance_growth,0.2022,True,5.296999999999995
+PSX,Phillips 66,Energy,2019,True,231552,0.2917,0.17720000000000002,64.953,7.813900000000004,financial_performance_growth,0.1575,True,9.131299999999996
+PSX,Phillips 66,Energy,2020,True,228848,0.1429,-0.14880000000000002,68.3861,3.433099999999996,financial_performance_growth,0.21495,True,3.881299999999996
+PSX,Phillips 66,Energy,2021,True,271255,0.1983,0.055400000000000005,67.4642,-0.9218999999999937,financial_performance_growth,0.1376,True,11.934100000000004
+PSX,Phillips 66,Energy,2022,True,375062,0.2969,0.0986,63.456100000000006,-4.008099999999999,financial_performance_growth,0.0972,True,7.9606999999999974
+PSX,Phillips 66,Energy,2023,True,286187,0.113,-0.1839,65.3419,1.885799999999989,financial_performance_growth,0.1429,True,9.904599999999997
+PSX,Phillips 66,Energy,2024,True,298996,0.1746,0.0616,61.271699999999996,-4.0702,financial_performance_growth,0.1687,True,5.0936
+SBUX,Starbucks,Consumer Discretionary,2016,True,275333,0.0336,,50.9203,,financial_performance_growth,,,
+SBUX,Starbucks,Consumer Discretionary,2017,True,280725,-0.0149,-0.0485,45.346900000000005,-5.573399999999992,financial_performance_growth,0.607,True,6.164399999999998
+SBUX,Starbucks,Consumer Discretionary,2018,True,289653,0.3881,0.403,51.061,5.714099999999995,financial_performance_growth,0.38635,True,8.909900000000004
+SBUX,Starbucks,Consumer Discretionary,2019,True,287675,0.3305,-0.057599999999999985,52.9764,1.9153999999999982,financial_performance_growth,0.38885,True,8.180400000000002
+SBUX,Starbucks,Consumer Discretionary,2020,True,309485,0.3529,0.022399999999999975,61.4246,8.4482,financial_performance_growth,0.10635,True,10.6036
+SBUX,Starbucks,Consumer Discretionary,2021,True,328943,0.4373,0.08440000000000003,62.2904,0.8658000000000001,financial_performance_growth,0.3449,True,7.2372000000000005
+SBUX,Starbucks,Consumer Discretionary,2022,True,465577,0.4108,-0.026500000000000024,54.1694,-8.120999999999995,financial_performance_growth,0.33895,True,8.495199999999997
+SBUX,Starbucks,Consumer Discretionary,2023,True,361858,0.3672,-0.04359999999999997,56.818,2.6485999999999947,financial_performance_growth,0.39885,True,9.838399999999998
+SBUX,Starbucks,Consumer Discretionary,2024,False,0,0.0,,0.0,,,,,
+SCHW,Charles Schwab,Financials,2016,True,193981,-0.0889,,53.2527,,financial_performance_growth,,,
+SCHW,Charles Schwab,Financials,2017,True,208562,-0.0175,0.0714,53.4614,0.20870000000000033,financial_performance_growth,0.49815,True,2.102900000000003
+SCHW,Charles Schwab,Financials,2018,True,391632,-0.0788,-0.06129999999999999,39.2205,-14.240899999999996,financial_performance_growth,0.34345,True,17.7397
+SCHW,Charles Schwab,Financials,2019,True,194824,-0.1311,-0.0523,61.3374,22.1169,financial_performance_growth,0.7187,True,22.4707
+SCHW,Charles Schwab,Financials,2020,True,393050,-0.1429,-0.011800000000000005,41.266999999999996,-20.070400000000006,financial_performance_growth,0.54045,True,20.270400000000002
+SCHW,Charles Schwab,Financials,2021,True,232161,-0.2662,-0.12329999999999999,58.407799999999995,17.1408,financial_performance_growth,0.63515,True,19.4934
+SCHW,Charles Schwab,Financials,2022,True,409277,-0.1415,0.1247,41.61,-16.797799999999995,financial_performance_growth,0.63565,True,16.797800000000002
+SCHW,Charles Schwab,Financials,2023,True,265462,0.0456,0.1871,62.909000000000006,21.299000000000007,financial_performance_growth,0.2741,True,21.299000000000003
+SCHW,Charles Schwab,Financials,2024,True,271640,0.0764,0.030799999999999994,63.8714,0.9623999999999953,financial_performance_growth,0.46145,True,3.180200000000001
+SLB,SLB,Energy,2016,True,327721,0.1339,,46.2893,,financial_performance_growth,,,
+SLB,SLB,Energy,2017,True,384688,0.0909,-0.043,47.856899999999996,1.5675999999999988,financial_performance_growth,0.21365,True,3.425399999999998
+SLB,SLB,Energy,2018,True,303396,0.1429,0.052000000000000005,55.5709,7.714000000000006,financial_performance_growth,0.56365,True,8.014800000000001
+SLB,SLB,Energy,2019,True,317494,0.1886,0.04569999999999999,55.686099999999996,0.11519999999999442,financial_performance_growth,0.5411,True,3.1153999999999997
+SLB,SLB,Energy,2020,True,281912,0.2651,0.07650000000000001,58.38700000000001,2.7009000000000114,financial_performance_growth,0.5353,True,4.851900000000003
+SLB,SLB,Energy,2021,True,449538,0.1858,-0.07930000000000001,47.8936,-10.493400000000008,financial_performance_growth,0.09255,True,11.3916
+SLB,SLB,Energy,2022,True,260352,0.303,0.1172,60.6487,12.755099999999999,financial_performance_growth,0.20555,True,14.150899999999996
+SLB,SLB,Energy,2023,True,248324,0.1676,-0.1354,65.23740000000001,4.58870000000001,financial_performance_growth,0.2802,True,5.8789000000000025
+SLB,SLB,Energy,2024,True,246687,0.0868,-0.0808,64.1703,-1.0671000000000106,financial_performance_growth,0.1224,True,5.057700000000002
+TGT,Target,Consumer Discretionary,2016,True,247985,-0.1529,,49.4787,,financial_performance_growth,,,
+TGT,Target,Consumer Discretionary,2017,True,245533,-0.1226,0.030300000000000007,51.6425,2.163799999999995,financial_performance_growth,0.10785,True,4.009399999999999
+TGT,Target,Consumer Discretionary,2018,True,244237,-0.0596,0.063,51.0159,-0.6265999999999963,financial_performance_growth,0.6824,True,6.7732
+TGT,Target,Consumer Discretionary,2019,True,230377,-0.1111,-0.051500000000000004,54.041700000000006,3.025800000000004,financial_performance_growth,0.4447,True,4.875800000000005
+TGT,Target,Consumer Discretionary,2020,True,330515,-0.1855,-0.0744,48.9841,-5.057600000000008,financial_performance_growth,0.18915,True,5.811200000000005
+TGT,Target,Consumer Discretionary,2021,True,237848,-0.1133,0.0722,59.3656,10.381500000000003,financial_performance_growth,0.12275,True,11.420500000000002
+TGT,Target,Consumer Discretionary,2022,True,254694,-0.1494,-0.03610000000000001,64.9801,5.6144999999999925,financial_performance_growth,0.09835,True,10.923900000000001
+TGT,Target,Consumer Discretionary,2023,True,281879,-0.0921,0.057300000000000004,65.66650000000001,0.6864000000000203,financial_performance_growth,0.35405,True,6.563399999999997
+TGT,Target,Consumer Discretionary,2024,True,313944,-0.0611,0.031,65.5849,-0.08160000000000878,financial_performance_growth,0.3076,True,6.911399999999999
+TJX,TJX Companies,Consumer Discretionary,2016,True,220646,0.2344,,54.6577,,financial_performance_growth,,,
+TJX,TJX Companies,Consumer Discretionary,2017,True,371335,0.2329,-0.0015000000000000013,48.1236,-6.534099999999995,financial_performance_growth,0.22025,True,10.381499999999997
+TJX,TJX Companies,Consumer Discretionary,2018,True,245778,0.1792,-0.0537,54.64280000000001,6.519200000000005,financial_performance_growth,0.3883,True,8.4728
+TJX,TJX Companies,Consumer Discretionary,2019,True,243386,0.1381,-0.0411,53.7008,-0.9420000000000073,financial_performance_growth,0.595,True,4.366200000000001
+TJX,TJX Companies,Consumer Discretionary,2020,True,269507,0.1682,0.030099999999999988,54.8781,1.1773000000000025,financial_performance_growth,0.16535,True,4.8207
+TJX,TJX Companies,Consumer Discretionary,2021,True,286312,0.1274,-0.040799999999999975,60.947700000000005,6.069600000000001,financial_performance_growth,0.1699,True,6.600400000000004
+TJX,TJX Companies,Consumer Discretionary,2022,True,418817,0.0114,-0.11600000000000002,48.9714,-11.976300000000002,financial_performance_growth,0.34205,True,12.363100000000001
+TJX,TJX Companies,Consumer Discretionary,2023,True,322539,-0.0615,-0.07289999999999999,58.659499999999994,9.688099999999991,financial_performance_growth,0.38005,True,12.723899999999997
+TJX,TJX Companies,Consumer Discretionary,2024,True,287281,-0.0472,0.0143,55.2071,-3.4523999999999972,financial_performance_growth,0.36215,True,5.744999999999998
+TMO,Thermo Fisher Scientific,Healthcare,2016,True,216767,0.4085,,43.2261,,financial_performance_growth,,,
+TMO,Thermo Fisher Scientific,Healthcare,2017,True,203516,0.3803,-0.028199999999999947,44.6157,1.3895999999999944,financial_performance_growth,0.81295,True,2.3672
+TMO,Thermo Fisher Scientific,Healthcare,2018,True,214457,0.4321,0.05179999999999996,46.489599999999996,1.873899999999999,financial_performance_growth,0.7799,True,2.1024999999999983
+TMO,Thermo Fisher Scientific,Healthcare,2019,True,269019,0.3333,-0.0988,57.43090000000001,10.941300000000012,financial_performance_growth,0.1227,True,12.154700000000005
+TMO,Thermo Fisher Scientific,Healthcare,2020,True,276517,0.1939,-0.1394,58.2965,0.8655999999999935,financial_performance_growth,0.12435,True,5.095200000000003
+TMO,Thermo Fisher Scientific,Healthcare,2021,True,299164,0.2646,0.07070000000000001,59.699799999999996,1.4032999999999944,financial_performance_growth,0.4355,True,3.6474999999999995
+TMO,Thermo Fisher Scientific,Healthcare,2022,True,281615,0.3821,0.1175,62.7453,3.045500000000004,financial_performance_growth,0.24865,True,3.390300000000001
+TMO,Thermo Fisher Scientific,Healthcare,2023,True,396188,0.2057,-0.1764,47.2251,-15.520200000000003,financial_performance_growth,0.0752,True,18.8052
+TMO,Thermo Fisher Scientific,Healthcare,2024,True,271569,0.1545,-0.051199999999999996,62.488699999999994,15.263599999999997,financial_performance_growth,0.303,True,19.372399999999995
+TSLA,Tesla,Consumer Discretionary,2016,True,167350,0.3585,,40.21510000000001,,financial_performance_growth,,,
+TSLA,Tesla,Consumer Discretionary,2017,True,183339,0.4516,0.09310000000000002,41.1261,0.9109999999999943,financial_performance_growth,0.7097,True,2.9816
+TSLA,Tesla,Consumer Discretionary,2018,True,215911,0.4217,-0.029899999999999982,42.3324,1.2062999999999988,financial_performance_growth,0.1254,True,18.967100000000002
+TSLA,Tesla,Consumer Discretionary,2019,True,500831,0.2237,-0.198,29.8106,-12.521799999999999,financial_performance_growth,0.15495,True,23.526200000000003
+TSLA,Tesla,Consumer Discretionary,2020,True,222902,0.1569,-0.0668,45.042199999999994,15.231599999999993,financial_performance_growth,0.6959,True,15.332199999999998
+TSLA,Tesla,Consumer Discretionary,2021,True,345158,0.2961,0.13919999999999996,35.1142,-9.927999999999997,financial_performance_growth,0.65335,True,14.7268
+TSLA,Tesla,Consumer Discretionary,2022,True,365650,0.1466,-0.14949999999999997,32.8181,-2.2960999999999956,financial_performance_growth,0.5592,True,3.5763000000000003
+TSLA,Tesla,Consumer Discretionary,2023,True,221462,-0.0407,-0.18730000000000002,51.430800000000005,18.612700000000004,financial_performance_growth,0.4331,True,23.396100000000004
+TSLA,Tesla,Consumer Discretionary,2024,True,1577639,0.009,0.0497,24.866300000000003,-26.564500000000002,financial_performance_growth,0.05865,True,26.8975
+UNH,UnitedHealth Group,Healthcare,2016,True,284416,0.0886,,54.3921,,financial_performance_growth,,,
+UNH,UnitedHealth Group,Healthcare,2017,True,303051,0.0533,-0.0353,53.555299999999995,-0.8368000000000038,financial_performance_growth,0.5524,True,2.072600000000004
+UNH,UnitedHealth Group,Healthcare,2018,True,300402,0.096,0.0427,53.6281,0.07280000000000797,financial_performance_growth,0.4249,True,3.0276000000000023
+UNH,UnitedHealth Group,Healthcare,2019,True,298775,0.125,0.028999999999999998,57.1669,3.538799999999995,financial_performance_growth,0.3968,True,3.5669999999999957
+UNH,UnitedHealth Group,Healthcare,2020,True,392412,0.4061,0.2811,55.9109,-1.2560000000000002,financial_performance_growth,0.1876,True,8.714999999999996
+UNH,UnitedHealth Group,Healthcare,2021,True,350055,0.3504,-0.05570000000000003,60.9332,5.022300000000001,financial_performance_growth,0.2365,True,5.585499999999998
+UNH,UnitedHealth Group,Healthcare,2022,True,304814,0.33,-0.020399999999999974,66.3683,5.435100000000006,financial_performance_growth,0.28265,True,11.558300000000006
+UNH,UnitedHealth Group,Healthcare,2023,True,339883,0.2478,-0.08220000000000002,74.7612,8.392899999999997,financial_performance_growth,0.4733,True,9.703099999999996
+UNH,UnitedHealth Group,Healthcare,2024,True,311847,0.125,-0.12279999999999999,68.7838,-5.977400000000003,financial_performance_growth,0.60095,True,8.074000000000002
+VLO,Valero Energy,Energy,2016,True,300186,-0.0108,,46.1047,,financial_performance_growth,,,
+VLO,Valero Energy,Energy,2017,True,199252,-0.0137,-0.0029,57.3645,11.259799999999998,financial_performance_growth,0.83025,True,12.158600000000002
+VLO,Valero Energy,Energy,2018,True,231828,-0.0435,-0.029799999999999997,54.8252,-2.5392999999999972,financial_performance_growth,0.10965,True,3.6624999999999988
+VLO,Valero Energy,Energy,2019,True,212527,-0.0495,-0.006000000000000005,62.10979999999999,7.28459999999999,financial_performance_growth,0.9157,False,7.284599999999996
+VLO,Valero Energy,Energy,2020,True,335810,0.049,0.0985,52.9763,-9.13349999999999,financial_performance_growth,0.7483,True,10.3715
+VLO,Valero Energy,Energy,2021,True,267954,0.1974,0.14839999999999998,66.0187,13.042399999999994,financial_performance_growth,0.4304,True,13.0424
+VLO,Valero Energy,Energy,2022,True,359078,0.1224,-0.075,71.8786,5.85990000000001,financial_performance_growth,0.17135,True,18.484699999999997
+VLO,Valero Energy,Energy,2023,True,430260,0.1034,-0.01899999999999999,73.5368,1.6581999999999937,financial_performance_growth,0.059,True,5.396399999999998
+VLO,Valero Energy,Energy,2024,True,424882,0.1731,0.0697,67.61880000000001,-5.917999999999992,financial_performance_growth,0.12125,True,8.0764
+WFC,Wells Fargo,Financials,2016,False,0,0.0,,0.0,,,,,
+WFC,Wells Fargo,Financials,2017,True,467656,-0.4155,,55.5536,,financial_performance_growth,,,
+WFC,Wells Fargo,Financials,2018,True,478842,-0.3393,0.07619999999999999,69.501,13.947400000000002,financial_performance_growth,0.0126,True,14.395600000000005
+WFC,Wells Fargo,Financials,2019,False,0,0.0,,0.0,,,,,
+WFC,Wells Fargo,Financials,2020,True,498997,-0.2,0.13929999999999998,74.249,4.7479999999999905,financial_performance_growth,0.11155,True,11.1174
+WFC,Wells Fargo,Financials,2021,True,509112,-0.2109,-0.010899999999999993,79.2557,5.006700000000009,financial_performance_growth,0.16585,True,9.446299999999999
+WFC,Wells Fargo,Financials,2022,True,542432,-0.2024,0.008500000000000008,67.3634,-11.892300000000006,financial_performance_growth,0.0679,True,13.212900000000001
+WFC,Wells Fargo,Financials,2023,True,457426,-0.2127,-0.010300000000000004,72.8862,5.522800000000004,financial_performance_growth,0.1952,True,11.730400000000005
+WFC,Wells Fargo,Financials,2024,True,510261,-0.1896,0.02310000000000001,71.1793,-1.7069000000000045,financial_performance_growth,0.1171,True,10.241100000000001
+XOM,ExxonMobil,Energy,2016,True,253375,0.0583,,56.004000000000005,,financial_performance_growth,,,
+XOM,ExxonMobil,Energy,2017,True,223913,0.1859,0.12760000000000002,55.602000000000004,-0.402000000000001,financial_performance_growth,0.7503,True,8.968199999999998
+XOM,ExxonMobil,Energy,2018,True,190121,0.2456,0.0597,55.2281,-0.3739000000000061,financial_performance_growth,0.70735,True,8.594100000000001
+XOM,ExxonMobil,Energy,2019,True,228730,0.0044,-0.24120000000000003,55.3928,0.1647000000000034,financial_performance_growth,0.61715,True,8.036100000000001
+XOM,ExxonMobil,Energy,2020,True,228475,0.0093,0.004899999999999999,56.3737,0.9808999999999983,financial_performance_growth,0.7619,True,5.014100000000003
+XOM,ExxonMobil,Energy,2021,False,0,0.0,,0.0,,,,,
+XOM,ExxonMobil,Energy,2022,True,277272,0.1774,0.1681,58.4264,2.0527000000000015,financial_performance_growth,0.15725,True,9.232499999999998
+XOM,ExxonMobil,Energy,2023,True,397309,0.0191,-0.1583,62.0424,3.6159999999999997,financial_performance_growth,0.2591,True,12.822600000000001
+XOM,ExxonMobil,Energy,2024,True,350942,0.1402,0.12109999999999999,67.105,5.062600000000003,financial_performance_growth,0.2502,True,15.576

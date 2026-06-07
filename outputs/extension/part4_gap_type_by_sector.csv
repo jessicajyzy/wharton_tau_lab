@@ -1,0 +1,26 @@
+sector,gap_type,rows,sector_total,share_within_sector
+Consumer Discretionary,broad_misalignment,17,90,0.18888888888888888
+Consumer Discretionary,different_themes_similar_tone,18,90,0.2
+Consumer Discretionary,high_alignment,11,90,0.12222222222222222
+Consumer Discretionary,insufficient_data,20,90,0.2222222222222222
+Consumer Discretionary,same_themes_different_emphasis,24,90,0.26666666666666666
+Energy,broad_misalignment,9,90,0.1
+Energy,different_themes_similar_tone,13,90,0.14444444444444443
+Energy,high_alignment,28,90,0.3111111111111111
+Energy,insufficient_data,7,90,0.07777777777777778
+Energy,same_themes_different_emphasis,33,90,0.36666666666666664
+Financials,broad_misalignment,9,90,0.1
+Financials,different_themes_similar_tone,20,90,0.2222222222222222
+Financials,high_alignment,36,90,0.4
+Financials,insufficient_data,11,90,0.12222222222222222
+Financials,same_themes_different_emphasis,14,90,0.15555555555555556
+Healthcare,broad_misalignment,5,90,0.05555555555555555
+Healthcare,different_themes_similar_tone,7,90,0.07777777777777778
+Healthcare,high_alignment,6,90,0.06666666666666667
+Healthcare,insufficient_data,16,90,0.17777777777777778
+Healthcare,same_themes_different_emphasis,56,90,0.6222222222222222
+Technology,broad_misalignment,15,90,0.16666666666666666
+Technology,different_themes_similar_tone,12,90,0.13333333333333333
+Technology,high_alignment,5,90,0.05555555555555555
+Technology,insufficient_data,23,90,0.25555555555555554
+Technology,same_themes_different_emphasis,35,90,0.3888888888888889
