@@ -1,0 +1,17 @@
+# Part 2 Summary — Lived Values from Proxy Statements
+
+For Part 2, I used DEF 14A proxy statements as the lived-values document type. I chose proxy statements because they are available through SEC EDGAR, follow a relatively consistent filing structure, and contain formal language about governance, executive compensation, human capital, board oversight, risk, shareholder value, and corporate responsibility. This made them a more systematic source than ESG, sustainability, or DEI reports, which are often published inconsistently across firms and years.
+
+The final Part 2 dataset contains 450 company-year rows for the same 50 companies from 2016 through 2024. Usable proxy text was collected for 97.1% of company-years, or 437 out of 450 rows. Coverage was high across all sectors and years. The remaining 13 missing or unusable rows were kept in the dataset and documented in `analyst_notes`, rather than being dropped.
+
+For each proxy statement, I extracted cleaned body text and applied text mining to measure topic emphasis and tone. I used the same broad value categories as Part 1: innovation, customer focus, employee culture, diversity and inclusion, sustainability and environment, community and social impact, integrity/ethics/trust, health/safety/wellbeing, and financial performance/growth. I calculated raw theme counts and normalized theme counts per 10,000 words so that longer and shorter proxy statements could be compared more fairly.
+
+I also calculated a simple net tone measure using positive and negative term dictionaries. This tone score is not meant to capture every nuance of the documents, but it gives a consistent way to compare broad language patterns across companies, sectors, and years.
+
+To analyze changes over time within companies, I created company-year trend fields including tone change from the prior usable year, total theme-mention change from the prior usable year, text similarity to the prior usable year, a changed-from-prior indicator, and a theme-shift measure. These fields help identify whether a company’s proxy language stayed relatively stable or shifted in tone and topic emphasis.
+
+To analyze cross-company and cross-sector variation, I generated company coverage reports and year-sector summaries. These reports compare coverage, average text length, average tone, and theme emphasis across sectors and over time. For example, the reports make it easier to compare how much different sectors emphasized governance, employee culture, sustainability, diversity and inclusion, health and safety, or financial performance language.
+
+I also grouped years into broad external-event windows: pre-2020, 2020–2021, and post-2021. These windows are not intended to prove causality, but they provide a useful way to observe whether disclosure language shifted around major events such as COVID-19 and the broader increase in attention to human capital and ESG disclosure.
+
+The main limitation is that proxy statements are formal legal and governance documents. They are useful for observing what companies disclose and emphasize, but they do not capture every aspect of internal culture or actual behavior. The tone measure is also dictionary-based, so it should be interpreted as a rough indicator rather than a complete sentiment model. Part 2 provides a strong and consistent lived-values dataset that can be compared with Part 1 stated-values pages in the authenticity index.
