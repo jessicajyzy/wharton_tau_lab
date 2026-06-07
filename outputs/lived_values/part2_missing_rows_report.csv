@@ -1,0 +1,14 @@
+ticker,company_name,sector,cik,year,document_type,source,filing_date,accession_number,analyst_notes
+AAPL,Apple,Technology,320193,2018,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
+NVDA,NVIDIA,Technology,1045810,2022,DEF 14A proxy statement,SEC EDGAR,2022-04-19,0001045810-22-000068,downloaded on attempt 1. Text too short or unavailable. Clean text length: 964.
+AVGO,Broadcom,Technology,1730168,2016,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
+AVGO,Broadcom,Technology,1730168,2017,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
+AVGO,Broadcom,Technology,1730168,2018,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
+WFC,Wells Fargo,Financials,72971,2016,DEF 14A proxy statement,SEC EDGAR,2016-03-16,0001193125-16-506771,"download failed after 3 attempts: HTTPSConnectionPool(host='www.sec.gov', port=443): Max retries exceeded with url: /Archives/edgar/data/72971/000119312516506771/d897049ddef14a.htm (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)'))). Text too short or unavailable. Clean text length: 0."
+WFC,Wells Fargo,Financials,72971,2019,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
+GS,Goldman Sachs,Financials,886982,2017,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
+GS,Goldman Sachs,Financials,886982,2023,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
+ABBV,AbbVie,Healthcare,1551152,2016,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
+MCD,McDonald's,Consumer Discretionary,63908,2022,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
+SBUX,Starbucks,Consumer Discretionary,829224,2024,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
+XOM,ExxonMobil,Energy,34088,2021,DEF 14A proxy statement,SEC EDGAR,,,No DEF 14A filing found for this filing year.
