@@ -16,4 +16,4 @@ The scraper also compares each usable company-year page to the previous usable y
 
 The main limitation is that Wayback coverage is uneven. Some companies changed domains or page structures over time, and some archived pages existed but returned empty, blocked, JavaScript-heavy, or server-error captures. Rather than forcing lower-quality pages into the dataset, I retained these rows as documented gaps. The theme-coding approach is also limited because predefined dictionaries may miss more subtle values language, while the LLM layer depends on the quality of the extracted text.
 
-Overall, the Part 1 dataset is strong enough for downstream analysis because it has broad coverage, transparent selection rules, raw HTML backups, review flags, explicit gap documentation, and an LLM-assisted enrichment layer for all usable scraped snapshots.
+The Part 1 dataset is strong enough for downstream analysis because it has broad coverage, transparent selection rules, a raw Wayback HTML archive, review flags, explicit gap documentation, and an LLM-assisted enrichment layer for all usable scraped snapshots.
