@@ -1,0 +1,16 @@
+pandas
+numpy
+requests
+beautifulsoup4
+lxml
+readability-lxml
+trafilatura
+scikit-learn
+tqdm
+matplotlib
+seaborn
+nltk
+textstat
+sec-edgar-downloader
+python-dotenv
+openai
