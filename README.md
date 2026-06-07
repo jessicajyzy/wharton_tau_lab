@@ -1,8 +1,8 @@
 # Wharton TAU Lab Research Assistant Recruitment Assignment
 
-**Submitted by:** Jessica Yang
-**Project:** Organizational Authenticity & Corporate Value Alignment
-**Repository:** `wharton_tau_lab`
+**Submitted by:** Jessica Yang     
+**Project:** Organizational Authenticity & Corporate Value Alignment     
+**Repository:** `wharton_tau_lab`     
 
 This repository contains code, output files, and written summaries for the Wharton TAU Lab Research Assistant Recruitment Assignment.
 
